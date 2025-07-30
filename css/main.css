@@ -52,30 +52,31 @@ html {
 body {
    font-family: "Work Sans", sans-serif;
 }
+
 .container {
    padding-left: 15px;
    padding-right: 15px;
    margin: 0 auto 0 auto;
 }
-
+/* disable horizontal scroll in small screens  */
 @media (max-width: 580px) {
    .container {
       overflow-x: hidden;
    }
 }
-
+/* small screens */
 @media (min-width: 768px) {
    .container {
       width: 750px;
    }
 }
-
+/* midium screens */
 @media (min-width: 992px) {
    .container {
       width: 970px;
    }
 }
-
+/* large screens */
 @media (min-width: 1200px) {
    .container {
       width: 1170px;
